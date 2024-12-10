@@ -31,6 +31,7 @@ export const setupServer = () => {
   const allowedOrigins = [
     'http://localhost', // Для будь-якого порту на localhost
     'https://frontend-inter-mafia.vercel.app', // Ваш розгорнутий фронтенд
+    'https://frontend-inter-mafia-mitka.vercel.app/', // Ваш розгорнутий фронтенд
     undefined, // Для Postman (відсутній `origin`)
   ];
 
